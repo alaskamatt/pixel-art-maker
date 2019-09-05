@@ -1,32 +1,40 @@
-.divTable{
+.divTable {
 	display: table;
 
 }
 .divTableRow {
 	display: table-row;
 }
-.divTableHeading {
-	background-color: #EEE;
-	display: table-header-group;
-}
-.divTableCell, .divTableHead {
+
+.divTableCell {
     background-color: white;
-	border: 1px solid gainsboro;
+    border: 1px solid gainsboro;
 	display: table-cell;
     padding: 3px 3px;
     height: 5px;
     width: 5px;
 }
-.divTableHeading {
-	background-color: #EEE;
-	display: table-header-group;
-	font-weight: bold;
+
+.colorRow * {
+    border: 1px solid gainsboro;
+	display: table-cell;
+    padding: 3px 3px;
+    height: 5px;
+    width: 5px;
 }
-.divTableFoot {
-	background-color: #EEE;
-	display: table-footer-group;
-	font-weight: bold;
+
+.colorIndicator {
+    border: 1px solid gainsboro;
+	display: table-cell;
+    padding: 3px 3px;
+    height: 5px;
+    width: 5px;
 }
-.divTableBody {
-	display: table-row-group;
+
+/* .colorRow .cell1 {
+    background-color: red;
 }
+
+.colorRow .cell2 {
+    background-color: green;
+} */
